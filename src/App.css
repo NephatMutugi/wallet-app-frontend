@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height to occupy the full viewport height */
+}
+
+/* Styles for the main content area */
+.mainContent {
+  flex: 1; /* This will make sure to push the footer down */
+  padding-bottom: 100px; /* Space for the footer */
+}
